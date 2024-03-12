@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Pokemon GB';
+  src: url('/Pokemon_GB/Pokemon_GB.ttf') format('truetype');
+}
+
+body {
+  background-color: #A3D1FF;
+  font-family: 'Pokemon GB', Arial, sans-serif;
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+  text-shadow: 2px 2px #ffffff;
+}
+
+h2 {
+  color: #005a9c;
+  text-align: center;
+  text-shadow: 2px 2px #ffffff;
+}
+
+h3 {
+  color: #e6b800;
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+}
+
+p {
+  color: #000;
+  text-align: center;
+  word-break: keep-all;
+}
+
+button {
+  background-color: #f2d94e;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e6b800;
+}
+
+#resultado {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #005a9c;
+  box-shadow: 0 0 5px #005a9c;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* Agregamos margen inferior para separar el input y el botón */
+}

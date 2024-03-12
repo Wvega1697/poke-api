@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokéAPI</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Agregar favicon -->
+  <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+  <div class="centered">
+    <img src="logo.png" alt="Logo">
+  </div>
+  <h1>PokeAPI</h1>
+  <div class="centered"></div>
+  <p>Todos los datos de Pokémon que necesitarás en un solo lugar, fácilmente accesibles a través de una moderna API RESTful de código abierto y gratuita.</p>
+  <div class="centered"></div>
+  <p>Puedes ingresar un numero del 1 al 1025 para buscar un Pokémon.</p>
+  <div class="centered">
+    <input type="number" id="pokemonId" min="1" max="1025">
+  </div>
+  <div class="centered">
+    <button onclick="buscarPokemon()">Buscar</button>
+  </div>
+  <div id="resultado"></div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
